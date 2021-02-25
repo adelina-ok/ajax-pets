@@ -37,6 +37,10 @@
                 pet = "rabbit";
                }
 
+               if(feels="fluffy" && likes=="petted" && eats=="pets"){
+                pet = "dane";
+               }
+
                if(feels="scaly" && likes=="ridden" && eats=="pets"){
                 pet = "velociraptor";
                }
@@ -54,7 +58,6 @@
                $("#output").html(output);
 
                $('#pet').load(`includes/content.html #${pet}`);
-               $('#pet').load(`includes/content2.html #${pet}`);
             
 
                //alert(eats);
